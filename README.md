@@ -1,1 +1,71 @@
-# iac-pattern-mining
+# IaC Pattern Mining
+
+**Course**: CSCE 676 - Data Mining and Analysis  
+**Semester**: Spring 2025  
+**Student**: Divyanshu Singh
+
+## Project Overview
+
+This project explores patterns, structures, and anomalies in Infrastructure as Code (IaC) datasets, with a focus on cloud infrastructure configurations across AWS, GCP, and Azure. The goal is to apply data mining techniques to understand common architectural patterns, identify gaps in existing training datasets, and discover insights about how infrastructure code is written and structured.
+
+## Research Questions
+
+- What are the most common infrastructure patterns across different cloud providers?
+- How do IaC code structures differ between Terraform, Pulumi, and other IaC languages?
+- What gaps exist in current IaC datasets for LLM training purposes?
+- Can we identify anomalous or potentially problematic infrastructure configurations?
+- How do infrastructure patterns cluster by domain (e.g., web apps, data pipelines, ML systems)?
+
+## Datasets
+
+### Primary Dataset Candidates
+
+1. **AutoIaC Evaluation Dataset**
+   - Source: [Hugging Face - autoiac-project/iac-eval](https://huggingface.co/datasets/autoiac-project/iac-eval)
+   - Description: Evaluation dataset for Infrastructure as Code generation
+
+2. **Infrastructure as Code Dataset (Zenodo)**
+   - Source: [Zenodo - IaC Dataset](https://zenodo.org/records/10173400)
+   - Description: Large-scale collection of real-world IaC files
+
+3. **Multi-IaC-Eval**
+   - Source: [Hugging Face - AmazonScience/Multi-IaC-Eval](https://huggingface.co/datasets/AmazonScience/Multi-IaC-Eval)
+   - Description: 2M code-comment pairs from open source repositories
+
+## Data Mining Techniques
+
+### Course-Related Techniques
+- **Text Mining**: Analyzing IaC code structure and documentation
+- **Clustering**: Grouping similar infrastructure patterns
+- **Anomaly Detection**: Identifying unusual or potentially problematic configurations
+- **Pattern Mining**: Discovering frequent code patterns and anti-patterns
+
+### Beyond-Course Techniques
+- **Graph Neural Networks**: Modeling infrastructure dependency graphs
+- **Code Embeddings**: Using transformer-based models for code representation
+- **Sequence Mining**: Analyzing temporal evolution of infrastructure code
+- **Topic Modeling**: Identifying common infrastructure themes and use cases
+
+## Project Timeline
+
+- **Feb 12**: Dataset Selection and EDA (Checkpoint 1)
+- **Mar 5**: Initial Research Question (Checkpoint 2)
+- **Apr 2**: Deep Dive Analysis (Checkpoint 3)
+- **Apr 20**: Project Showcase
+- **Apr 27**: Final Deliverable
+
+## Key Findings
+
+*This section will be updated as the project progresses with major insights and discoveries.*
+
+## References
+
+- AutoIaC Project: [Link TBD]
+- Zenodo IaC Dataset: [Link TBD]
+- CodeSearchNet Paper: [arXiv:1909.09436](https://arxiv.org/abs/1909.09436)
+
+## Contact
+
+**Divyanshu Singh**  
+Texas A&M University  
+Email: [divyanshu@tamu.edu]
