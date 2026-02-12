@@ -60,9 +60,9 @@ This project explores patterns, structures, and anomalies in Infrastructure as C
 
 ## References
 
-- AutoIaC Project: [Link TBD]
-- Zenodo IaC Dataset: [Link TBD]
-- CodeSearchNet Paper: [arXiv:1909.09436](https://arxiv.org/abs/1909.09436)
+- IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs[https://neurips.cc/virtual/2024/poster/97835](https://doi.org/10.52202/079017-4273)
+- Zenodo IaC Dataset: Daniel Sokolowski, David Spielmann, and Guido Salvaneschi. 2024. The PIPr Dataset of Public Infrastructure as Code Programs. In Proceedings of the 21st International Conference on Mining Software Repositories (MSR '24). Association for Computing Machinery, New York, NY, USA, 498–503. [https://doi.org/10.1145/3643991.3644888]
+- Multi-IaC-Eval: Benchmarking Cloud Infrastructure as Code Across Multiple Formats. [https://doi.org/10.48550/arXiv.2509.05303]
 
 ## Contact
 
