@@ -32,6 +32,15 @@ This project explores patterns, structures, and anomalies in Infrastructure as C
    - Source: [Hugging Face - AmazonScience/Multi-IaC-Eval](https://huggingface.co/datasets/AmazonScience/Multi-IaC-Eval)
    - Description: 2M code-comment pairs from open source repositories
 
+## Dataset Selection
+
+**Selected Dataset: The PIPr Dataset (Public Infrastructure as Code Programs)**
+
+After evaluating candidates including IaC-Eval and Multi-IaC-Eval, we selected **PIPr** for the following reasons:
+1.  **Scale**: With 37,712 real-world IaC programs, it offers volume essential for frequent pattern mining and graph neural networks.
+2.  **Real-World Quality**: Unlike synthetic datasets, PIPr contains real user code with bugs and variety, making it ideal for anomaly detection.
+3.  **Diversity**: It covers AWS CDK, Pulumi, and CDKTF across multiple languages (TypeScript, Python, Go), supporting robust clustering tasks.
+
 ## Data Mining Techniques
 
 ### Course-Related Techniques
@@ -54,15 +63,19 @@ This project explores patterns, structures, and anomalies in Infrastructure as C
 - **Apr 20**: Project Showcase
 - **Apr 27**: Final Deliverable
 
-## Key Findings
+## Exploratory Data Analysis (EDA)
 
-*This section will be updated as the project progresses with major insights and discoveries.*
+Initial analysis of the PIPr dataset (conducted in `01_dataset_exploration.ipynb`) reveals:
+
+-   **Tool Dominance**: The dataset is heavily skewed towards **AWS CDK** (23,940 programs), with **TypeScript** as the dominant language.
+-   **Testing Disparity**: Testing adoption is uneven. AWS CDK programs have a **~38% testing rate**, while Pulumi programs are largely untested (~1.3%).
+-   **Implication**: The "tested" subset of AWS CDK programs likely represents "production-grade" infrastructure and will be a key focus for mining high-quality patterns.
 
 ## References
 
 - IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs[https://neurips.cc/virtual/2024/poster/97835](https://doi.org/10.52202/079017-4273)
-- Zenodo IaC Dataset: Daniel Sokolowski, David Spielmann, and Guido Salvaneschi. 2024. The PIPr Dataset of Public Infrastructure as Code Programs. In Proceedings of the 21st International Conference on Mining Software Repositories (MSR '24). Association for Computing Machinery, New York, NY, USA, 498–503. [https://doi.org/10.1145/3643991.3644888]
-- Multi-IaC-Eval: Benchmarking Cloud Infrastructure as Code Across Multiple Formats. [https://doi.org/10.48550/arXiv.2509.05303]
+- Zenodo IaC Dataset: Daniel Sokolowski, David Spielmann, and Guido Salvaneschi. 2024. The PIPr Dataset of Public Infrastructure as Code Programs. In Proceedings of the 21st International Conference on Mining Software Repositories (MSR '24). Association for Computing Machinery, New York, NY, USA, 498–503. [https://doi.org/10.1145/3643991.3644888](https://doi.org/10.1145/3643991.3644888)
+- Multi-IaC-Eval: Benchmarking Cloud Infrastructure as Code Across Multiple Formats. [https://doi.org/10.48550/arXiv.2509.05303](https://doi.org/10.48550/arXiv.2509.05303)
 
 ## Contact
 

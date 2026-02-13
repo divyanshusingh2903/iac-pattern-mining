@@ -1,0 +1,18 @@
+Collaboration Declaration
+
+(1) Collaborators:
+None
+
+(2) Web Sources:
+- IaC-Eval Dataset: https://huggingface.co/datasets/autoiac-project/iac-eval
+- PIPr Dataset: https://zenodo.org/records/10173400
+- Multi-IaC-Eval Dataset: https://huggingface.co/datasets/AmazonScience/Multi-IaC-Eval
+
+(3) AI Tools:
+- Claude: Initial Paper summarization, (Section A and B) Used for assistance with code generation in EDA (Section D), and README.md.
+- Google Gemini: Used for assistance with EDA data analysis (Section E).
+
+(4) Citations:
+- Daniel Sokolowski, David Spielmann, and Guido Salvaneschi. 2024. The PIPr Dataset of Public Infrastructure as Code Programs. In Proceedings of the 21st International Conference on Mining Software Repositories (MSR '24). Association for Computing Machinery, New York, NY, USA, 498–503. https://doi.org/10.1145/3643991.3644888
+- IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs. https://doi.org/10.52202/079017-4273
+- Multi-IaC-Eval: Benchmarking Cloud Infrastructure as Code Across Multiple Formats. https://doi.org/10.48550/arXiv.2509.05303
