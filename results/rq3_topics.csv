@@ -1,0 +1,9 @@
+topic,label,n_docs,pct_tested,avg_desc_len,avg_testing_fws,dominant_quality_tier
+Topic 0,Kubernetes / Clusters,2212,1.2,48.7,0.02,medium
+Topic 4,Azure / Multi-Cloud,1123,1.7,51.3,0.03,medium
+Topic 3,Kubernetes / Clusters,1072,5.1,47.3,0.1,medium
+Topic 6,GCP / Google Cloud,940,0.7,51.5,0.01,medium
+Topic 7,Web / Static Sites,666,1.7,50.7,0.02,medium
+Topic 5,Component Resources,410,0.2,64.6,0.0,medium
+Topic 2,Testing & Demo,404,2.2,49.8,0.03,medium
+Topic 1,Provider Config & Naming,324,0.0,51.5,0.0,medium
